@@ -1,0 +1,362 @@
+{
+	"info": {
+		"_postman_id": "62cca391-5f1a-4e22-9d50-5dc5ed522582",
+		"name": "Event Weather API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45939130"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\":\"Tech Conference 2025\",\r\n  \"date\": \"2025-06-01\",\r\n  \"location\": \"Pune\",\r\n  \"description\": \"An annual conference focusing on technology trends and innovations.\",\r\n  \"eventType\":\"Outdoor Sports\"\r\n  \r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\":\"Tech Conference 2025\",\r\n  \"date\": \"2025-06-01\",\r\n  \"location\": \"Pune\",\r\n  \"description\": \"An annual conference focusing on technology trends and innovations.\",\r\n  \"eventType\":\"Outdoor Sports\"\r\n  \r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Cricket tournament\",\r\n  \"date\": \"2025-07-01\",\r\n  \"location\": \"New Delhi\",\r\n  \"description\": \"Annual cricket event\",\r\n  \"eventType\" : \"Outdoor Sports\"\r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Tech Conference 2025\",\r\n  \"date\": \"2025-07-01\",\r\n  \"location\": \"New Delhi\",\r\n  \"description\": \"An annual conference focusing on technology trends and innovations.\",\r\n  \"eventType\" : \"Conference\"\r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\":\"Tech Conference 2025\",\r\n  \"date\": \"2025-06-01\",\r\n  \"location\": \"Pune\",\r\n  \"description\": \"An annual conference focusing on technology trends and innovations.\",\r\n  \"eventType\":\"Outdoor Sports\"\r\n  \r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events/68502aa85ead105ea69b6bc3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\":\"Sports\",\r\n  \"date\": \"2025-06-01\",\r\n  \"location\": \"Pune\",\r\n  \"description\": \"Annual sports tournament\",\r\n  \"eventType\":\"Outdoor Sports\"\r\n  \r\n\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events/68502aa85ead105ea69b6bc3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events",
+						"68502aa85ead105ea69b6bc3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events/685035338f22d1c5bea18339/weather-check",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Wedding\",\r\n  \"location\": \"Mumbai\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events/685035338f22d1c5bea18339/weather-check",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events",
+						"685035338f22d1c5bea18339",
+						"weather-check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events/685035338f22d1c5bea18339/weather",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Wedding\",\r\n  \"location\": \"Mumbai\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events/685035338f22d1c5bea18339/weather",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events",
+						"685035338f22d1c5bea18339",
+						"weather"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events/685035338f22d1c5bea18339/suitability",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Wedding\",\r\n  \"location\": \"Mumbai\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events/685035338f22d1c5bea18339/suitability",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events",
+						"685035338f22d1c5bea18339",
+						"suitability"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events/685035338f22d1c5bea18339/alternatives",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Wedding\",\r\n  \"location\": \"Mumbai\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events/685035338f22d1c5bea18339/alternatives",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events",
+						"685035338f22d1c5bea18339",
+						"alternatives"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/events/weather/Mumbai/2025-06-18",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Wedding\",\r\n  \"location\": \"Mumbai\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/events/weather/Mumbai/2025-06-18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"events",
+						"weather",
+						"Mumbai",
+						"2025-06-18"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
